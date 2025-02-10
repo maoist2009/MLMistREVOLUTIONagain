@@ -1,3 +1,8 @@
+---
+title: 网站建设指南
+tags:
+  - SystemFile
+---
 # 协作指南
 
 ## 序言
@@ -24,7 +29,7 @@ git文件架构基本有三个概念
 
 对于安卓系统，你可以安装Termux，以获得linux环境。
 首先，下载git，有包管理器的直接`install`即可。
-windows可以去[官网](https://git-scm.com/download/win)下载
+windows可以去[官网](https://git-scm.com/download/win/)下载
 
 ### 配置SSH/GPG
 
@@ -44,7 +49,7 @@ ssh-keygen
 
 接下来，复制整个`id_xxx.pub`。
 
-1. 到[这里](https://codeberg.org/user/settings/keys)
+1. 到[这里](https://codeberg.org/user/settings/keys/)
 2. 管理SSH密钥，增加密钥
 3. 密钥内容，粘贴复制好的`id_xxx.pub`
 4. 即可
@@ -52,7 +57,7 @@ ssh-keygen
 ### 克隆仓库
 
 如果你没有得到我们的信任，可能需要通过Fork+Pull Request的形式发布内容。这里暂且不提及。
-请告诉我们你的codeberg账号名称，我们需要添加你为协作者或者让你加入[我们的团队](https://codeberg.org/MLMistREVOLUTIONagain)，这样你才能让你的贡献生效。
+请告诉我们你的codeberg账号名称，我们需要添加你为协作者或者让你加入[我们的团队](https://codeberg.org/MLMistREVOLUTIONagain/)，这样你才能让你的贡献生效。
 
 ### 贡献指南
 
@@ -109,7 +114,7 @@ git pull
 
 ### 电脑nodejs安装
 
-你的电脑或手机需要[nodejs](https://nodejs.org/zh-cn)
+你的电脑或手机需要[nodejs](https://nodejs.org/zh-cn/)
 
 对于termux用户，只需`pkg install nodejs`即可
 
@@ -145,7 +150,7 @@ git push
 
 可以参照这篇[Markdown指南](https://markdown.com.cn/)
 
-我们网站具体支持的语法可以看[MarkdownCheatSheet](./posts/MarkdownCheatSheet/)
+我们网站具体支持的语法可以看[MarkdownCheatSheet](./posts/MarkdownCheatSheet)
 
 在每篇文章开头，你需要插入信息，大致这样（`#`后面是注释，实战不用写）
 
@@ -167,6 +172,5 @@ sitemap: false
 + `.vitepress`，存放配置的地方，不会编程的一般不要改动。
 + `post`目录，一个特殊的存放文章的目录，里面的文章会被首页和tags索引到
 + 其他目录，其他放文章的地方，这里的文章不会被索引到，可以按目录结构放一些创作等等。比方说继续革命社的讲义，可以考虑单开一个目录，然后在`post`里面发一篇文章链接到那个目录。
-
 
 ## 写的不是很清楚，抱歉。
