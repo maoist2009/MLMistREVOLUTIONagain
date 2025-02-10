@@ -1,0 +1,48 @@
+{
+  "name": "websource",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "MLMist",
+  "license": "GPL-3.0-or-later",
+  "type": "module",
+  "devDependencies": {
+    "@mdit/plugin-img-size": "^0.12.0",
+    "@rollup/rollup-win32-x64-msvc": "^4.34.3",
+    "@shikijs/vitepress-twoslash": "^1.6.1",
+    "dayjs": "^1.11.10",
+    "fast-glob": "^3.3.2",
+    "feed": "^4.2.2",
+    "fs-extra": "^11.2.0",
+    "globby": "14.0.0",
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^14.1.0",
+    "markdown-it-anchor": "^9.0.1",
+    "markdown-it-mathjax3": "^4.3.2",
+    "markdown-it-multimd-table": "^4.2.3",
+    "shiki": "^1.6.1",
+    "vitepress": "1.6.3"
+  },
+  "scripts": {
+    "dev": "vitepress dev ",
+    "build": "vitepress build ",
+    "serve": "vitepress serve "
+  },
+  "dependencies": {
+    "@giscus/vue": "^3.0.0",
+    "@mdit/plugin-footnote": "^0.12.0",
+    "@mdit/plugin-ins": "^0.12.0",
+    "@mdit/plugin-mark": "^0.12.0",
+    "@mdit/plugin-tasklist": "^0.12.0",
+    "@rollup/wasm-node": "^4.34.3",
+    "ts-md5": "^1.3.1",
+    "vite-plugin-vitepress-auto-sidebar": "^1.7.1"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search",
+        "search-insights"
+      ]
+    }
+  }
+}
