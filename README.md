@@ -140,10 +140,11 @@ pnpm run build
 
 ```bash
 cd .vitepress/dist
-git pull
+git init
 git add .
 git commit -m "upd"
-git push
+git remote add origin git@codeberg.org:MLMistREVOLUTIONagain/pages.git
+git push -u origin master --force
 ```
 
 ## 关于文章问题，Markdown指南
