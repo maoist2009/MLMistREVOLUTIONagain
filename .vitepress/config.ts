@@ -51,6 +51,7 @@ async function config() {
     },
     // cleanUrls: "with-subfolders",
     lastUpdated: false,
+    metaChunk: true,
     themeConfig: {
       // repo: "clark-cui/homeSite",
       logo: "/avator.svg",
