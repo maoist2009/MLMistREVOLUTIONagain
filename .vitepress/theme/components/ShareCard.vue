@@ -1,7 +1,7 @@
 <template>
   <div class="shareCard">
     <h1 class="title">
-      <span>我们是哲史革命社. 👋</span>
+      <span>我们是继续革命社&文革斗争社👋</span>
     </h1>
     <p class="description">
       XMPP上的革命组织
@@ -22,6 +22,9 @@
           <img src="/AccountsLinksIcon/GithubIcon.svg" width="30" height="30" class="avator" />
         </a>
       -->
+        <a href="xmpp:%E9%A9%AC%E5%88%97%E6%AF%9B%E4%B8%BB%E4%B9%89%E7%BB%A7%E7%BB%AD%E9%9D%A9%E5%91%BD%E7%A4%BE@conference.conversations.im?join" target="_blank">
+          <img src="/AccountsLinksIcon/xmpp.svg" width="30" height="30" class="avator" /> 
+        </a>
         <a href="xmpp:gbudn19@conference.conversations.im?join" target="_blank">
           <img src="/AccountsLinksIcon/xmpp.svg" width="30" height="30" class="avator" /> 
         </a>

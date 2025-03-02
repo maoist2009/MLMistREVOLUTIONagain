@@ -13,8 +13,8 @@ import { mark } from '@mdit/plugin-mark'
 async function config() {
   return {
     lang: "zh-CN",
-    title: "哲史革命社官方网站",
-    description: "哲史革命社官方网站",
+    title: "继续革命社&文革斗争社官方网站",
+    description: "继续革命社&文革斗争社网站",
     head: [
       [
         "link",
@@ -42,7 +42,7 @@ async function config() {
         "meta",
         {
           property: "og:description",
-          content: "哲史革命社官方网站",
+          content: "继续革命社&文革斗争社官方网站",
         },
       ],
     ],

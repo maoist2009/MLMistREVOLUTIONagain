@@ -2,7 +2,7 @@
   <footer>
     By
     <a href="https://codeberg.org/MLMistREVOLUTIONagain/" target="_blank" title="Author"
-      >哲史革命社</a>
+      >继续革命社&文革斗争社</a>
     | Copyright © 2024-{{ date }} | GPLv3&GFDL License 
     <br/>
      <a href="https://codeberg.org/MLMistREVOLUTIONagain/websource/" target="_blank" title="SourceCode"
