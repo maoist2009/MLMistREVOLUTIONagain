@@ -1,7 +1,7 @@
 <template>
     <div id="motto-container">
         <h6 id="motto-title">导师语录</h6>
-        <p id="motto">{{ motto }}</p>
+        <p id="motto"  v-html="motto"></p>
         <br />
         <div class="mottofromparent" style="text-align: right">
             <div class="mottofrom" style="display: inline-block">
@@ -28,7 +28,7 @@ onContentUpdated(() => {
             const motto_content = content;
             // alert(motto_content);
             // get number of lines in motto file
-            const motto_lines: number = motto_content.split("\n").length / 2;
+            const motto_lines: number = Math.floor( motto_content.split("\n").length / 2) ;
             // random line number
             const random_line = Math.floor(Math.random() * motto_lines);
             // console.log(random_line, motto_lines, motto_content);
