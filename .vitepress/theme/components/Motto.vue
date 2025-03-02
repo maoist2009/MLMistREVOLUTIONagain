@@ -1,6 +1,6 @@
 <template>
   <div id="motto-container">
-    <h6 id="motto-title">格言</h6>
+    <h6 id="motto-title">导师语录</h6>
     <p id="motto">{{ motto }}</p>
   </div>
 </template>
