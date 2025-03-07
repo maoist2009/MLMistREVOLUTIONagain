@@ -1,10 +1,12 @@
 <template>
   <h1 class="title">{{ pageData.title }}</h1>
+  <PageTag />
   <div class="date">🕒 Published at: {{ publishDate }}</div>
 </template>
 <script lang="ts" setup>
 import { useData, onContentUpdated } from "vitepress";
 import { ref, reactive } from "vue";
+import PageTag from "./PageTag.vue"
 
 import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
