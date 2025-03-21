@@ -472,7 +472,7 @@ graph LR
 
 ### 确定dns
 
-可以前往[nslookup](nslookup.io)查找正确dns，前往[chromium内置页面](chrome://net-internals/#dns)查看gfw提供的dns。
+可以前往[nslookup](https://nslookup.io)查找正确dns，前往[chromium内置页面](chrome://net-internals/#dns)查看gfw提供的dns。
 
 ### 确定ip是否被封锁或者恶意丢包
 
