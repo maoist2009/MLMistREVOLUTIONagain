@@ -43,6 +43,32 @@ tags:
 
 接下来我们就需要搞一个代理了。
 
+## 网页版紧急代理软件
+
+有个网站叫croxyproxy，提供了免费的网页代理。有广告，部分靠广告盈利，不知道会不会主动窃取信息。但是拿来下载点东西是可以的。
+
+由于这个网站也经常被墙，所以有些就不能用了。但是他们搞了一个又一个镜像。
+
+列出一些2025.03.22能用的：
+
++ https://proxyorb.com/zh-CN
++ https://croxyproxy.app/
++ https://64.227.120.231/_ja/
++ https://proxycroxy.io/
++ https://www.lablancer.com/
+
+怎么搞呢，bing搜索web pro xy 即可（为什么不是web proxy？因为proxy是敏感词，遂添加空格）。
+
+https://cn.bing.com/search?q=web%20pro%20xy&qs=ds&form=QBRE
+
+这个空格把proxy分开就行，似乎空格位置不一样结果还不一样。。。
+
+基本上都能找到这样一个框
+
+![WebproxyExample](/webproxy.png)
+
+左边输入框输入网址，点右边按钮就可以翻墙加载了。
+
 ## 适用于Android的推荐代理软件
 
 ### 迷雾通
