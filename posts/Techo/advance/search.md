@@ -4,7 +4,6 @@ tags:
   - 作者：maoist2009
   - 技术进阶
 ---
-
 # 搜索技巧
 
 总归是需要一些前人的经验的。。。
@@ -127,7 +126,6 @@ tags:
 
 如果要搜开源软件，可以加个github：`博客 github`或者`blog build github`
 
-
 ### AI搜索
 
 我的建议是非革命相关用豆包或者Deepseek。
@@ -145,5 +143,3 @@ tags:
 ### 微信公众号
 
 微信app，但更建议[搜狗](https://weixin.sogou.com/)
-
-
