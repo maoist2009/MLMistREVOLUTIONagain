@@ -65,7 +65,7 @@ https://cn.bing.com/search?q=web%20pro%20xy&qs=ds&form=QBRE
 
 基本上都能找到这样一个框
 
-![WebproxyExample](/webproxy.png)
+![WebproxyExample](./webproxy.png)
 
 左边输入框输入网址，点右边按钮就可以翻墙加载了。
 
