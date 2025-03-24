@@ -9,12 +9,14 @@ import { footnote } from "@mdit/plugin-footnote";
 import { tasklist } from "@mdit/plugin-tasklist";
 import { ins } from '@mdit/plugin-ins'
 import { mark } from '@mdit/plugin-mark'
+import { defineConfig } from 'vitepress'
 
 async function config() {
-  return {
+  return defineConfig({
     lang: "zh-CN",
     title: "继续革命社&文革斗争社",
     description: "继续革命社&文革斗争社网站",
+    metaChunk: true,
     head: [
       [
         "link",
@@ -50,8 +52,7 @@ async function config() {
       hostname: 'https://mlmistrevolutionagain.codeberg.page',
     },
     // cleanUrls: "with-subfolders",
-    lastUpdated: false,
-    metaChunk: true,
+    lastUpdated: true,
     themeConfig: {
       // repo: "clark-cui/homeSite",
       logo: "/avator.svg",
@@ -130,7 +131,7 @@ async function config() {
         })
       ]
     },
-  };
+  });
 }
 export default config();
 
