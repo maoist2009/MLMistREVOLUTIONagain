@@ -5,6 +5,7 @@ tags:
   - 网络
   - 技术入门
 ---
+
 # 网络安全入门
 
 本文适用于急需网络安全保护自己的同志。力求简介快速，对原因原理的解释难以详尽。
@@ -69,11 +70,25 @@ https://cn.bing.com/search?q=web%20pro%20xy&qs=ds&form=QBRE
 
 左边输入框输入网址，点右边按钮就可以翻墙加载了。
 
-## 适用于Android的推荐代理软件
+## Windows紧急用代理软件
+
+由maoist2009通知编写的TlsFragment Windows客户端。
+
+解压后运行`安装`即可运行，之后使用使用`运行`即可。
+
+下载链接：
+
++ [Github Release](https://github.com/maoist2009/TlsFragment_Windows/releases/download/V1.0.0/dist.zip)
++ [本站codeberg版本](https://mlmistrevolutionagain.codeberg.page/TlsFragment_Win.zip)
++ [本站CF pages版本](https://mlmistrevolutionagain.pages.dev/TlsFragment_Win.zip)
+
+## 推荐代理软件
 
 ### 迷雾通
 
-以下链接一个一个尝试下载：
+[官网](https://geph.io/)；[官方安卓下载](https://dl.geph.io/geph-releases/android-stable/4.99.32/geph-android.apk)；[官方Windows下载](https://dl.geph.io/geph-releases/windows-stable/4.99.32/geph-windows-setup.exe)；[官方GNU/Linux下载](https://dl.geph.io/geph-releases/linux-stable/4.99.32/Geph-x86_64.flatpak)
+
+**安卓**镜像以下链接一个一个尝试下载：
 
 + https://github.yongyong.online/https://github.com/maoist2009/AndroifFrag/releases/download/0.-1/geph-android.apk
 + https://ghfast.top/https://github.com/maoist2009/AndroifFrag/releases/download/0.-1/geph-android.apk
@@ -94,9 +109,10 @@ https://cn.bing.com/search?q=web%20pro%20xy&qs=ds&form=QBRE
 
 ### proton VPN
 
-同上：
+[官网](https://protonvpn.com/)；[官方Win链接](https://protonvpn.com/download-windows)（需要自己选择系统，一般是x64架构）；[官方安卓Fdroid](https://f-droid.org/packages/ch.protonvpn.android/)
 
-+ https://gh.ddlc.top/https://github.com/ProtonVPN/android-app/releases/download/5.9.59.0/ProtonVPN-5.9.59.0.605095900.-production-vanilla-direct-release.apk
+**安卓**镜像以下链接一个一个尝试下载：+ https://gh.ddlc.top/https://github.com/ProtonVPN/android-app/releases/download/5.9.59.0/ProtonVPN-5.9.59.0.605095900.-production-vanilla-direct-release.apk
+
 + https://ghproxy.1888866.xyz/https://github.com/ProtonVPN/android-app/releases/download/5.9.59.0/ProtonVPN-5.9.59.0.605095900.-production-vanilla-direct-release.apk
 + https://github.moeyy.xyz/https://github.com/ProtonVPN/android-app/releases/download/5.9.59.0/ProtonVPN-5.9.59.0.605095900.-production-vanilla-direct-release.apk
 + https://ghproxy.net/https://github.com/ProtonVPN/android-app/releases/download/5.9.59.0/ProtonVPN-5.9.59.0.605095900.-production-vanilla-direct-release.apk
@@ -105,7 +121,8 @@ https://cn.bing.com/search?q=web%20pro%20xy&qs=ds&form=QBRE
 之后
 
 1. 点create an accout（创建账户）
-2. Get a new encrypted email accout（获取proton账户）你也可以用你自己的邮箱，但没有专业知识不推荐，中国人用的大部分邮箱并不安全，而且proton mail一定意义上其实是后续必要的。
+2. Get a new encrypted email accout（获取proton账户）
+   你也可以用你自己的邮箱，但没有专业知识不推荐，中国人用的大部分邮箱并不安全，而且proton mail一定意义上其实是后续必要的。
 3. 填写username，domain为proton.me
 4. 设置密码，上下输入一样的，确认没有打错
 5. 让你输入recovery method（重置办法）,点skip
@@ -115,3 +132,4 @@ https://cn.bing.com/search?q=web%20pro%20xy&qs=ds&form=QBRE
 9. Not now（现在不购买plus）
 10. 然后底下操作栏settings，protocol选Stealth.
 11. 回到主界面connect即可连接
+
