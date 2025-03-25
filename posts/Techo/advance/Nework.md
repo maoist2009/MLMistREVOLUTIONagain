@@ -152,7 +152,7 @@ GFW根据明文的sni进行封锁。封锁具体方法利用了TCP协议中的�
 应用层之上，基本和网络没什么事情了。再就是具体网站的行为了。
 
 附上一张图
-![网络基本架构](https://github.com/user-attachments/assets/2182fb60-6707-4dc6-9fec-91354cf01743)
+![网络基本架构](./Protocol_Layers.svg)
 
 ## 翻墙
 

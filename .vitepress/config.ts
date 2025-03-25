@@ -3,7 +3,7 @@ import { buildBlogRSS } from "./theme/rss";
 import { transformerTwoslash } from "@shikijs/vitepress-twoslash";
 import mathjax3 from "markdown-it-mathjax3";
 import multimd_table_plugin from "markdown-it-multimd-table";
-import AutoSidebar from 'vite-plugin-vitepress-auto-sidebar';
+import { withSidebar } from 'vitepress-sidebar';
 import { imgSize } from "@mdit/plugin-img-size";
 import { footnote } from "@mdit/plugin-footnote";
 import { tasklist } from "@mdit/plugin-tasklist";
@@ -12,7 +12,7 @@ import { mark } from '@mdit/plugin-mark'
 import { defineConfig } from 'vitepress'
 
 async function config() {
-  return defineConfig({
+  return defineConfig(withSidebar({
     lang: "zh-CN",
     title: "继续革命社&文革斗争社",
     description: "继续革命社&文革斗争社网站",
@@ -118,20 +118,35 @@ async function config() {
     },
     vite: {
       plugins: [
-        // add plugin
-        AutoSidebar({
-          path: '/',
-          collapsed: true,
-          titleFromFile: true,
-          ignoreList: [
-              'node_modules',
-              '.vitepress',
-              'public ',
-          ],
-        })
+        // // add plugin
+        // AutoSidebar({
+        //   path: '/',
+        //   collapsed: true,
+        //   titleFromFile: true,
+        //   ignoreList: [
+        //     'node_modules',
+        //     '.vitepress',
+        //     'public ',
+        //   ],
+        // })
       ]
     },
-  });
+  }, {
+    documentRootPath: '/',
+    collapsed: true,
+    useTitleFromFrontmatter: true,
+    useTitleFromFileHeading: true,
+    useFolderTitleFromIndexFile: true,
+    sortMenusByFrontmatterOrder: true,
+    excludePattern: [
+      ".vitepress",
+      "node_modules",
+      "archives.md",
+      "GroupInfo.md",
+      "tags.md",
+      "README.md"
+    ]
+  }));
 }
 export default config();
 
