@@ -21,16 +21,22 @@ tags:
 + 程序，程序与功能（有时候直接是程序与功能）
 + 找到对应程序，卸载
 
-## 使用安全的解压软件
+## 尽可能使用安全自由的软件
+
+下列软件遵循安装教程走即可，如果没有管理员权限，可以安装到其他目录，如D盘，建议创一个文件夹，如`APPS`安装在里面。
 
 解压软件，下载[7zip](https://www.7-zip.org/a/7z2409-x64.exe)即可
 
-办公软件如果是Microsoft Office，暂不用替换
+输入法推荐小狼毫。
++ [旋风软件园](http://down.mlgdb.com/soft2/xlhsrf_xfdown.com.zip)
++ [官网](https://rime.im/download/)
+
+办公软件如果是Microsoft Office，暂不用替换，但打开革命文件时仍建议替换为onlyoffice。（
 
 如果是WPS，在打开革命文件时建议替换为[OnlyOffice](https://download.onlyoffice.com/install/desktop/editors/windows/distrib/onlyoffice/DesktopEditors_x64.msi)。
 
 > 若没有电脑管理员权限，你可以暂缓安装（有办法，但麻烦）
-> 请使用
+> 可使用onlyoffice在线版，建议准备好Proton邮箱[注册](https://www.onlyoffice.com/office-suite.aspx?docspace=registration)。
 
 ## 处理无法替代中修软件开机自启动
 

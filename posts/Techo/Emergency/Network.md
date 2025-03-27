@@ -74,6 +74,8 @@ https://cn.bing.com/search?q=web%20pro%20xy&qs=ds&form=QBRE
 
 由maoist2009通知编写的TlsFragment Windows客户端。
 
+### 下载使用
+
 解压后运行`安装`即可运行，之后使用使用`运行`即可。
 
 下载链接：
@@ -81,6 +83,14 @@ https://cn.bing.com/search?q=web%20pro%20xy&qs=ds&form=QBRE
 + [Github Release](https://github.com/maoist2009/TlsFragment_Windows/releases/download/V1.0.0/dist.zip)
 + [本站codeberg版本](https://mlmistrevolutionagain.codeberg.page/TlsFragment_Win.zip)
 + [本站CF pages版本](https://mlmistrevolutionagain.pages.dev/TlsFragment_Win.zip)
+
+### 后续更新
+
+一般只需要用[这个文件](https://github.com/maoist2009/TlsFragment/raw/refs/heads/main/config.json)（ `config.json`配置文件）替换掉软件目录里的`config.json`，关闭后重新打开软件即可。
+
+> 如果你的电脑不显示扩展名，则只能看到文件名`config`
+
+
 
 ## 推荐代理软件
 
