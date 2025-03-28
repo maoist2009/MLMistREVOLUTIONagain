@@ -1,8 +1,11 @@
 <template>
   <div class="content">
     <!-- <img src="/educationLogo.svg" width="135" height="135" class="avator" /> -->
-    <img src="/FlagLogo.svg" width="135" height="135" class="avator" />
-    <img src="/PoliticLogo.svg" width="135" height="135" class="avator" />
+    <img src="/Mentors/Marx.svg" width="135" height="135" class="avator" />
+    <img src="/Mentors/Engels.svg" width="135" height="135" class="avator" />
+    <img src="/Mentors/Lenin.svg" width="135" height="135" class="avator" />
+    <img src="/Mentors/Stalin.svg" width="135" height="135" class="avator" />
+    <img src="/Mentors/Map.svg" width="135" height="135" class="avator" />
   </div>
 </template>
 <script lang="ts" setup>
@@ -20,7 +23,7 @@ const { theme } = useData();
   border-radius: 50%;
   border: 5px solid var(--vp-avator-border);
 }
-
+/*
 @keyframes avator-transform {
   from {
     transform: rotate(0);
@@ -32,4 +35,5 @@ const { theme } = useData();
 .avator:hover {
   animation: 5s linear 0s infinite avator-transform;
 }
+*/
 </style>
