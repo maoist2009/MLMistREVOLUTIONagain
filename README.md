@@ -9,6 +9,37 @@ tags:
 
 网站工作自然不是什么一个人的事情。网站搭建，应该是大工业的，不是手工业的。
 
+## 文章格式问题
+
+### FrontMatter
+```yaml
+titie: 标题
+tags:
+  - 作者：作者1
+  - 作者：作者2
+  - 其他标签1
+  - 其他标签2
+```
+
+注意`作者`后面是中文冒号`：`。
+
+### Markdown
+
+可参见[MarkdownCheatSheet](./posts/MarkdownCheatSheet.md)
+
+### Markdown引用路由
+
+一般图片等放在同目录下，如`mao.svg`，引用`./mao.svg`，markdown为`![mao](./mao.svg)`
+
+注意`public`目录会与根目录合并，路径同。
+
+在`revagain/intro.md`引用`Techo/Emergency/EMAIL.md`，使用`../Techo/Emergency/EMAIL.md`
+
+
+## 关于协作问题——codeberg上传
+
+codeberg网页登录到，导航到对应文件夹，点击添加文件，上传文件，上次md文件即可。
+
 ## 关于协作问题——git指南
 
 那么，程序员是如何协作项目的呢？
