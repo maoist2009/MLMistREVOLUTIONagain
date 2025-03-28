@@ -14,7 +14,7 @@ onContentUpdated(() => {
 </script>
 <template>
   <Giscus id="comments"
-    repo="louiesun/louiesun.github.io"
+    repo="maoist2009/MLMistREVOLUTIONagain"
     repo-id="R_kgDOMOvc_A"
     category="General"
     category-id="DIC_kwDOMOvc_M4CgbNY"
