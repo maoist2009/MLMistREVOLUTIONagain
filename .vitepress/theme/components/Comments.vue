@@ -15,9 +15,9 @@ onContentUpdated(() => {
 <template>
   <Giscus id="comments"
     repo="maoist2009/MLMistREVOLUTIONagain"
-    repo-id="R_kgDOMOvc_A"
-    category="General"
-    category-id="DIC_kwDOMOvc_M4CgbNY"
+    repo-id="R_kgDON1IXoA"
+    data-category="Show and tell"
+    data-category-id="DIC_kwDON1IXoM4CoUiZ"
     mapping="specific"
     :term="MD5pathname"
     reactions-enabled="1"
