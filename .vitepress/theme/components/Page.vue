@@ -6,10 +6,12 @@
   </h1>
   <h1 class="blog-title">Apps</h1>
   <!-- <div class="Cards">
-    <Card imageUrl="AppLogo/Crypted.svg" title="Crypted" description="A cryption tool against cencorship. "
-      ButtonText="Try it!" LinkUrl="./Crypted" />
-    <Card imageUrl="AppLogo/UZAlogo.svg" title="Unofficial_Z_Access" description="Access More web-sites without VPN. "
-      ButtonText="Try it!" LinkUrl="./Unofficial_Z_Access" />
+    <Card imageUrl="CardsLogo/TLSP_win.svg" title="安全入门" description="快速搭建相对安全的革命环境"
+      ButtonText="Try it!" LinkUrl="./posts/Techo/Emergency/" />
+    <Card imageUrl="CardsLogo/article.svg" title="继续革命社文集" description="一些理论研究与论战"
+      ButtonText="Try it!" LinkUrl="./posts/revagain/" />
+    <Card imageUrl="CardsLogo/library.svg" title="图书馆" description="存放一些其他来源的文章"
+      ButtonText="Try it!" LinkUrl="./posts/revagain/" />
   </div> -->
   <h1 class="blog-title">Posts</h1>
   <div class="blogList">
