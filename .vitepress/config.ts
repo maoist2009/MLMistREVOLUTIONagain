@@ -137,6 +137,7 @@ async function config() {
     useTitleFromFrontmatter: true,
     useTitleFromFileHeading: true,
     useFolderTitleFromIndexFile: true,
+    useFolderLinkFromIndexFile: true,
     sortMenusByFrontmatterOrder: true,
     excludePattern: [
       ".vitepress",
@@ -144,7 +145,7 @@ async function config() {
       "archives.md",
       "GroupInfo.md",
       "tags.md",
-      "README.md"
+      
     ]
   }));
 }
