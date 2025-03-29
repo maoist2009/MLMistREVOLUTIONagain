@@ -17,4 +17,4 @@ title: 安全入门
 
 [本站使用教程](/posts/intro)
 
-## [进阶](../advance)
+## [进阶](../advance/)

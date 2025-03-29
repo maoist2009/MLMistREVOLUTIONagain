@@ -5,14 +5,14 @@
     <a href="/GroupInfo">[Group Info]</a>
   </h1>
   <h1 class="blog-title">Apps</h1>
-  <!-- <div class="Cards">
+  <div class="Cards">
     <Card imageUrl="CardsLogo/TLSP_win.svg" title="安全入门" description="快速搭建相对安全的革命环境"
-      ButtonText="Try it!" LinkUrl="./posts/Techo/Emergency/" />
+      ButtonText="查看" LinkUrl="./posts/Techo/Emergency/" />
     <Card imageUrl="CardsLogo/article.svg" title="继续革命社文集" description="一些理论研究与论战"
-      ButtonText="Try it!" LinkUrl="./posts/revagain/" />
+      ButtonText="阅读" LinkUrl="./posts/revagain/" />
     <Card imageUrl="CardsLogo/library.svg" title="图书馆" description="存放一些其他来源的文章"
-      ButtonText="Try it!" LinkUrl="./posts/revagain/" />
-  </div> -->
+      ButtonText="进入" LinkUrl="./posts/revagain/" />
+  </div> 
   <h1 class="blog-title">Posts</h1>
   <div class="blogList">
     <a class="blog" v-for="item in posts" :href="withBase(item.regularPath)">
