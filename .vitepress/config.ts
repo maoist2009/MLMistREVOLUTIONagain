@@ -84,10 +84,12 @@ async function config() {
         },
       ],
 
-      // outline: 2, //设置右侧aside显示层级
+      outline: 4, //设置右侧aside显示层级
       aside: false,
       // blogs page show firewokrs animation
       showFireworksAnimation: false,
+      sidebarMenuLable: "网站目录",
+      outlineTitle: "文内目录"
     },
     buildEnd: buildBlogRSS,
     markdown: {
