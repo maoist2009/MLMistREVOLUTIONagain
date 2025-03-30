@@ -84,7 +84,7 @@ async function config() {
         },
       ],
 
-      outline: 4, //设置右侧aside显示层级
+      outline: [2,6], //设置右侧aside显示层级
       aside: false,
       // blogs page show firewokrs animation
       showFireworksAnimation: false,
