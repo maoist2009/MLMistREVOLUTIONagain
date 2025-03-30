@@ -207,3 +207,36 @@ sitemap: false
 + 其他目录，其他放文章的地方，这里的文章不会被索引到，可以按目录结构放一些创作等等。比方说继续革命社的讲义，可以考虑单开一个目录，然后在`post`里面发一篇文章链接到那个目录。
 
 ## 写的不是很清楚，抱歉。
+
+## 关于继续革命社文集生成事宜
+https://codeberg.org/MLMistREVOLUTIONagain/websource/src/branch/master/revagain
+
+需要安装python3, pandoc,texlive
+
+以termux为例
+```bash
+pkg install pandoc
+pkg install python
+pkg install texlive-installer
+termux-install-tl --location https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/tlnet
+```
+
+需要重启termux
+
+clone后
+```bash
+git clone git@codeberg.org:MLMistREVOLUTIONagain/websource.git
+```
+
+
+
+运行`process.sh`即可
+```bash
+sh process.sh
+```
+
+xelatex可能会突然停止，最后一行是一个?，输入return即可
+
+加文章，ssh,网页版生成见：
+
+https://codeberg.org/MLMistREVOLUTIONagain/websource/src/branch/master/README.md

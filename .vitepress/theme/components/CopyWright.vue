@@ -6,7 +6,7 @@
     | Copyright © 2024-{{ date }} | GPLv3&GFDL License 
     <br/>
      <a href="https://codeberg.org/MLMistREVOLUTIONagain/websource/" target="_blank" title="SourceCode"
-      >源码</a>就是我的备案
+      >源码</a>就是我们的备案
   </footer>
 </template>
 <script lang="ts" setup>
