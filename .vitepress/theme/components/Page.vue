@@ -12,6 +12,8 @@
       ButtonText="阅读" LinkUrl="./posts/revagain/" />
     <Card imageUrl="CardsLogo/library.svg" title="图书馆" description="存放一些其他来源的文章"
       ButtonText="进入" LinkUrl="./library/" />
+    <Card imageUrl="CardsLogo/alipay.svg" title="论数字支付与信用制度" description="当代政治经济学分析"
+      ButtonText="进入" LinkUrl="./posts/revagain/polinomic/论数字支付与信用制度/" />
   </div> 
   <h1 class="blog-title">Posts</h1>
   <div class="blogList">
