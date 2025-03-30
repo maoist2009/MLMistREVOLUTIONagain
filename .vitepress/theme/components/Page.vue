@@ -11,7 +11,7 @@
     <Card imageUrl="CardsLogo/article.svg" title="继续革命社文集" description="一些理论研究与论战"
       ButtonText="阅读" LinkUrl="./posts/revagain/" />
     <Card imageUrl="CardsLogo/library.svg" title="图书馆" description="存放一些其他来源的文章"
-      ButtonText="进入" LinkUrl="./posts/revagain/" />
+      ButtonText="进入" LinkUrl="./library/" />
   </div> 
   <h1 class="blog-title">Posts</h1>
   <div class="blogList">
