@@ -88,7 +88,7 @@ async function config() {
       aside: false,
       // blogs page show firewokrs animation
       showFireworksAnimation: false,
-      sidebarMenuLable: "网站目录",
+      sidebarMenuLabel: "网站目录",
       outlineTitle: "文内目录"
     },
     buildEnd: buildBlogRSS,
