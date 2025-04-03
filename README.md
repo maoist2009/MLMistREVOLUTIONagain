@@ -3,6 +3,7 @@ title: 网站建设指南
 tags:
   - SystemFile
   - 作者：maoist2009
+sidebar: false
 ---
 # 协作指南
 
@@ -13,6 +14,7 @@ tags:
 ## 文章格式问题
 
 ### FrontMatter
+
 ```yaml
 titie: 标题
 tags:
@@ -28,6 +30,14 @@ tags:
 
 可参见[MarkdownCheatSheet](./posts/MarkdownCheatSheet.md)
 
+[中文Markdown教程](https://markdown.com.cn/basic-syntax/)（通常认为需要整整**五分钟**才能**学会**）
+
+[一些扩展语法](https://markdown.com.cn/extended-syntax/)，这里基本都支持
+
+这里还支持$\KaTeX$实现的$\LaTeX$公式。[一份比较好的文档](https://www.luogu.com.cn/article/4a81e2tt)
+
+另外，支持MultiMarkdown表格。一份[比较好的文档](https://pkmer.cn/Pkmer-Docs/10-obsidian/obsidian%E7%A4%BE%E5%8C%BA%E6%8F%92%E4%BB%B6/table-extended/)
+
 ### Markdown引用路由
 
 一般图片等放在同目录下，如`mao.svg`，引用`./mao.svg`，markdown为`![mao](./mao.svg)`
@@ -35,7 +45,6 @@ tags:
 注意`public`目录会与根目录合并，路径同。
 
 在`revagain/intro.md`引用`Techo/Emergency/EMAIL.md`，使用`../Techo/Emergency/EMAIL.md`
-
 
 ## 关于协作问题——codeberg上传
 
@@ -140,7 +149,7 @@ git pull
 
 如果`pull`出错，就说明冲突了。
 
-## 关于部署问题
+## 关于部署问题：`mlmistrevolutionagain.codeberg.page`
 
 由于codeberg没有actions，我们只能手动构建。我建议专人定期构建。
 
@@ -179,13 +188,17 @@ git remote add origin git@codeberg.org:MLMistREVOLUTIONagain/pages.git
 git push -u origin master --force
 ```
 
+## 关于部署问题：`mlmistrevolutionagain.pages.dev`
+
+将原文件（不是部署的）推送到`https://github.com/maoist2009/MLMistREVOLUTIONagain`
+
 ## 关于文章问题，Markdown指南
 
 可以参照这篇[Markdown指南](https://markdown.com.cn/)
 
 我们网站具体支持的语法可以看[MarkdownCheatSheet](./posts/MarkdownCheatSheet)
 
-在每篇文章开头，你需要插入信息，大致这样（`#`后面是注释，实战不用写）
+在每篇文章开头，你需要插入信息，大致这样（`#`后面是注释，实战不用写），这叫FrontMatter
 
 ```yaml
 title: 文章标题
@@ -196,6 +209,16 @@ tags:
 sitemap: false
 # sitemap决定你的文章是否会被搜索引擎索引到，false表示不会，若没有sitemap选项，默认true
 ```
+
+### 一些注意事项
+
+FrontMatter的title必须要写！不然构建会出错，
+
+构建常见错误：Dead Link。直译死链，就是无法访问的链接。
+
+外部网站链接一定加https，如`[bing](https://cn.bing.com)`。
+
+站内内容链接确保存在，`/xx/xx`表示绝对路径。`./x/x`表示相对
 
 ## 关于建设问题，目录架构
 
@@ -209,11 +232,13 @@ sitemap: false
 ## 写的不是很清楚，抱歉。
 
 ## 关于继续革命社文集生成事宜
+
 https://codeberg.org/MLMistREVOLUTIONagain/websource/src/branch/master/revagain
 
 需要安装python3, pandoc,texlive
 
 以termux为例
+
 ```bash
 pkg install pandoc
 pkg install python
@@ -224,13 +249,13 @@ termux-install-tl --location https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/t
 需要重启termux
 
 clone后
+
 ```bash
 git clone git@codeberg.org:MLMistREVOLUTIONagain/websource.git
 ```
 
-
-
 运行`process.sh`即可
+
 ```bash
 sh process.sh
 ```
@@ -240,3 +265,5 @@ xelatex可能会突然停止，最后一行是一个?，输入return即可
 加文章，ssh,网页版生成见：
 
 https://codeberg.org/MLMistREVOLUTIONagain/websource/src/branch/master/README.md
+
+桌面端建议使用[MiKTeX](https://miktex.org/download)
