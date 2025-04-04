@@ -106,6 +106,8 @@ https://mirrors.tuna.tsinghua.edu.cn/fdroid/repo/?fingerprint=43238D512C1E5EB2D6
 + VLC应用播放器；VLC
 + monocles XMPP客户端；monocles
 
+底下有更新一栏，记得及时更新应用。
+
 ## 安装浏览器
 
 总要换掉系统浏览器的，个人推荐Kiwi Browser，因为是唯一开源的支持扩展和开发者工具的浏览器。可以使用克隆的系统浏览器下载软件园文件。
