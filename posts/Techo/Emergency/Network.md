@@ -5,7 +5,6 @@ tags:
   - 网络
   - 技术入门
 ---
-
 # 网络安全入门
 
 本文适用于急需网络安全保护自己的同志。力求简介快速，对原因原理的解释难以详尽。
@@ -81,8 +80,8 @@ https://cn.bing.com/search?q=web%20pro%20xy&qs=ds&form=QBRE
 下载链接：
 
 + [Github Release](https://github.com/maoist2009/TlsFragment_Windows/releases/download/V1.0.0/dist.zip)
-+ [本站codeberg版本](https://mlmistrevolutionagain.codeberg.page/TlsFragment_Win.zip)
-+ [本站CF pages版本](https://mlmistrevolutionagain.pages.dev/TlsFragment_Win.zip)
++ [本站codeberg版本](https://mlmistrevolutionagain.codeberg.page/TlsFragment_Win.7z)
++ [本站CF pages版本](https://mlmistrevolutionagain.pages.dev/TlsFragment_Win.7z)
 
 ### 后续更新
 
@@ -90,9 +89,9 @@ https://cn.bing.com/search?q=web%20pro%20xy&qs=ds&form=QBRE
 
 > 如果你的电脑不显示扩展名，则只能看到文件名`config`
 
-
-
 ## 推荐代理软件
+
+有条件的同志建议亲自去官网查看最新版。
 
 ### 迷雾通
 
@@ -121,8 +120,11 @@ https://cn.bing.com/search?q=web%20pro%20xy&qs=ds&form=QBRE
 
 [官网](https://protonvpn.com/)；[官方Win链接](https://protonvpn.com/download-windows)（需要自己选择系统，一般是x64架构）；[官方安卓Fdroid](https://f-droid.org/packages/ch.protonvpn.android/)
 
-**安卓**镜像以下链接一个一个尝试下载：+ https://gh.ddlc.top/https://github.com/ProtonVPN/android-app/releases/download/5.9.59.0/ProtonVPN-5.9.59.0.605095900.-production-vanilla-direct-release.apk
+**安卓**镜像以下链接一个一个尝试下载：
 
+我非常建议使用fdroid安装。fdroid安装可见[Android紧急安全教程](./Android)。记得更新，有时候连不上是因为版本太低，协议太老。
+
++ https://gh.ddlc.top/https://github.com/ProtonVPN/android-app/releases/download/5.9.59.0/ProtonVPN-5.9.59.0.605095900.-production-vanilla-direct-release.apk
 + https://ghproxy.1888866.xyz/https://github.com/ProtonVPN/android-app/releases/download/5.9.59.0/ProtonVPN-5.9.59.0.605095900.-production-vanilla-direct-release.apk
 + https://github.moeyy.xyz/https://github.com/ProtonVPN/android-app/releases/download/5.9.59.0/ProtonVPN-5.9.59.0.605095900.-production-vanilla-direct-release.apk
 + https://ghproxy.net/https://github.com/ProtonVPN/android-app/releases/download/5.9.59.0/ProtonVPN-5.9.59.0.605095900.-production-vanilla-direct-release.apk
@@ -142,4 +144,3 @@ https://cn.bing.com/search?q=web%20pro%20xy&qs=ds&form=QBRE
 9. Not now（现在不购买plus）
 10. 然后底下操作栏settings，protocol选Stealth.
 11. 回到主界面connect即可连接
-
