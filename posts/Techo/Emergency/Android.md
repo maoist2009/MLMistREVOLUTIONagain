@@ -90,7 +90,7 @@ https://mirrors.tuna.tsinghua.edu.cn/fdroid/repo/?fingerprint=43238D512C1E5EB2D6
 
 推荐先下好的应用名称；搜索关键词
 
-+ 小企鹅输入法；小企鹅
++ 小企鹅输入法；fcitx
 
 ### 更换输入法
 
