@@ -177,6 +177,12 @@ git pull
 pnpm run build
 ```
 
+### 测试
+
+```bash
+pnpm run serve
+```
+
 ### 部署
 
 ```bash
