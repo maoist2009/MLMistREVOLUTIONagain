@@ -10,12 +10,35 @@ title: 继续革命社推荐书单
 若无链接说明未准备好
 
 ## 哲学
+入门:
++ [《唯物辩证法大纲》李达1978年版](https://zh.z-library.sk/book/26857930/3c5a98/%E5%94%AF%E7%89%A9%E8%BE%A9%E8%AF%81%E6%B3%95%E5%A4%A7%E7%BA%B2.html)
++ [《辩证唯物主义历史唯物主义》艾思奇](https://z-library.sk/book/18187705/36ef8c/%E8%BE%A9%E8%AF%81%E5%94%AF%E7%89%A9%E4%B8%BB%E4%B9%89-%E5%8E%86%E5%8F%B2%E5%94%AF%E7%89%A9%E4%B8%BB%E4%B9%89.html)
++ [1975版《辩证唯物论 历史唯物论》](https://zh.z-library.sk/book/21222557/af8663/%E8%BE%A9%E8%AF%81%E5%94%AF%E7%89%A9%E8%AE%BA-%E5%8E%86%E5%8F%B2%E5%94%AF%E7%89%A9%E8%AE%BA-%E8%AF%95%E7%94%A8%E7%A8%BF.html)
++ [武汉大学《辩证唯物主义 历史唯物主义》](https://z-library.sk/book/29578524/6f8c13/%E8%BE%A9%E8%AF%81%E5%94%AF%E7%89%A9%E4%B8%BB%E4%B9%89%E5%8E%86%E5%8F%B2%E5%94%AF%E7%89%A9%E4%B8%BB%E4%B9%89%E8%AF%95%E7%94%A8%E8%AE%B2%E4%B9%89%E6%AD%A6%E6%B1%89%E5%A4%A7%E5%AD%A6%E5%93%B2%E5%AD%A6%E7%B3%BB%E7%BC%96.html)
++ [《哲学小词典 辩证唯物主义和历史唯物主义部分》](https://z-library.sk/book/14835974/a8c6a2/%E5%93%B2%E5%AD%A6%E5%B0%8F%E8%BE%9E%E5%85%B8%E8%BE%A9%E8%AF%81%E5%94%AF%E7%89%A9%E4%B8%BB%E4%B9%89%E5%92%8C%E5%8E%86%E5%8F%B2%E5%94%AF%E7%89%A9%E4%B8%BB%E4%B9%89%E9%83%A8%E5%88%86.html)
++ [秦毅《小资产阶级的思想改造》](https://zh.z-library.sk/book/12912927/55661f/%E5%B0%8F%E8%B5%84%E4%BA%A7%E9%98%B6%E7%BA%A7%E7%9A%84%E6%80%9D%E6%83%B3%E6%94%B9%E9%80%A0.html)
 
-+ [唯物辩证法大纲](https://zh.z-library.sk/book/26857930/3c5a98/%E5%94%AF%E7%89%A9%E8%BE%A9%E8%AF%81%E6%B3%95%E5%A4%A7%E7%BA%B2.html)
-+ [小资产阶级思想改造](https://zh.z-library.sk/book/12912927/55661f/%E5%B0%8F%E8%B5%84%E4%BA%A7%E9%98%B6%E7%BA%A7%E7%9A%84%E6%80%9D%E6%83%B3%E6%94%B9%E9%80%A0.html)
-+ [辨证唯物论 历史唯物论](https://zh.z-library.sk/book/21222557/af8663/%E8%BE%A9%E8%AF%81%E5%94%AF%E7%89%A9%E8%AE%BA-%E5%8E%86%E5%8F%B2%E5%94%AF%E7%89%A9%E8%AE%BA-%E8%AF%95%E7%94%A8%E7%A8%BF.html)
-+ 苏联版《马克思列宁主义原理》
-+ 毛主席哲学著作与整风三篇
+马克思:
+ + [《德意志意识形态》](https://zh.z-library.sk/book/116714757/0b6dea/%E5%BE%B7%E6%84%8F%E5%BF%97%E6%84%8F%E8%AF%86%E5%BD%A2%E6%80%81.html)
+ + [《黑格尔法哲学批判》](https://z-library.sk/book/27810259/5922f8/%E9%BB%91%E6%A0%BC%E5%B0%94%E6%B3%95%E5%93%B2%E5%AD%A6%E6%89%B9%E5%88%A4.html)
+ + [《1844年经济学哲学手稿》](https://z-library.sk/book/16576891/8b9608/%E9%A9%AC%E5%85%8B%E6%80%9D1844%E5%B9%B4%E7%BB%8F%E6%B5%8E%E5%AD%A6%E5%93%B2%E5%AD%A6%E6%89%8B%E7%A8%BF.html)
+
+恩格斯:
+ + [《自然辩证法》](https://z-library.sk/book/22316815/eec8fa/%E8%87%AA%E7%84%B6%E8%BE%A9%E8%AF%81%E6%B3%95.html)
+ + [《反杜林论》](https://mlmistrevolutionagain.codeberg.page/library/socialism/%E5%8F%8D%E6%9D%9C%E6%9E%97%E8%AE%BA.html)
+ + [《路德维希.费尔巴哈和德国古典哲学的终结》](https://z-library.sk/book/22316829/1b51bb/%E8%B7%AF%E5%BE%B7%E7%BB%B4%E5%B8%8C%E8%B4%B9%E5%B0%94%E5%B7%B4%E5%93%88%E5%92%8C%E5%BE%B7%E5%9B%BD%E5%8F%A4%E5%85%B8%E5%93%B2%E5%AD%A6%E7%9A%84%E7%BB%88%E7%BB%93.html)
+
+列宁:
+ + [《唯物主义与经验批判主义》](https://z-library.sk/book/60372265/a72a51/%E5%94%AF%E7%89%A9%E4%B8%BB%E4%B9%89%E5%92%8C%E7%BB%8F%E9%AA%8C%E6%89%B9%E5%88%A4%E4%B8%BB%E4%B9%89.html)
+ + [《论马克思恩格斯及马克思主义》](https://z-library.sk/book/28778706/16b3e4/%E8%AE%BA%E9%A9%AC%E5%85%8B%E6%80%9D%E6%81%A9%E6%A0%BC%E6%96%AF%E5%8F%8A%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89.html)
+ + [《哲学笔记》](https://z-library.sk/book/22321985/6cabcc/%E5%93%B2%E5%AD%A6%E7%AC%94%E8%AE%B0.html)
+
+斯大林:
+ + [《论辩证唯物主义与历史唯物主义》](https://z-library.sk/book/25847013/1d23c0/%E8%BE%A9%E8%AF%81%E5%94%AF%E7%89%A9%E4%B8%BB%E4%B9%89%E4%B8%8E%E5%8E%86%E5%8F%B2%E5%94%AF%E7%89%A9%E4%B8%BB%E4%B9%89.html)
+
+毛主席:
+ + [《毛主席的五篇哲学著作》](https://z-library.sk/book/21472740/6d1038/%E6%AF%9B%E4%B8%BB%E5%B8%AD%E7%9A%84%E4%BA%94%E7%AF%87%E5%93%B2%E5%AD%A6%E8%91%97%E4%BD%9C.html)
+ + 《延安整风三篇》
 
 ## 政治经济学
 
