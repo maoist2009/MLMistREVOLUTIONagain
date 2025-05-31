@@ -58,8 +58,8 @@ def add_ctex_and_tableofcontents(input_file, output_file):
             print("未找到 \\begin{document}，无法处理文件。")
             return
 
-        lines.insert(doc_start_index + 1, r'\tableofcontents' + '\n')
-        lines.insert(doc_start_index + 2, r'\newpage' + '\n')
+        lines.insert(doc_start_index + 1, '\\pagenumbering{gobble}\n\\tableofcontents\n')
+        lines.insert(doc_start_index + 2, '\\newpage\n\\pagenumbering{arabic}\n\\setcounter{page}{1}\n')
 
         with open(output_file, 'w', encoding='utf-8') as file:
             file.writelines(lines)
