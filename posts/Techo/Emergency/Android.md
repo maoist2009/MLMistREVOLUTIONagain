@@ -77,7 +77,7 @@ tags:
 
 复制
 ```plaintext
-https://mirrors.tuna.tsinghua.edu.cn/fdroid/repo/?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCA
+https://mirrors.tuna.tsinghua.edu.cn/fdroid/repo/?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB
 ```
 
 在fdroid中，设置，储存库，右下角＋号，手动输入url，复制进去确认即可。
