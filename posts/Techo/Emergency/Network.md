@@ -5,6 +5,7 @@ tags:
   - 网络
   - 技术入门
 ---
+
 # 网络安全入门
 
 本文适用于急需网络安全保护自己的同志。力求简介快速，对原因原理的解释难以详尽。
@@ -99,12 +100,12 @@ https://cn.bing.com/search?q=web%20pro%20xy&qs=ds&form=QBRE
 
 **安卓**镜像以下链接一个一个尝试下载：
 
-+ https://github.yongyong.online/https://github.com/maoist2009/AndroifFrag/releases/download/0.-1/geph-android.apk
-+ https://ghfast.top/https://github.com/maoist2009/AndroifFrag/releases/download/0.-1/geph-android.apk
-+ https://gh-proxy.net/https://github.com/maoist2009/AndroifFrag/releases/download/0.-1/geph-android.apk
-+ https://wget.la/https://github.com/maoist2009/AndroifFrag/releases/download/0.-1/geph-android.apk
-+ https://github.boki.moe/https://github.com/maoist2009/AndroifFrag/releases/download/0.-1/geph-android.apk
-+ https://gh.ddlc.top/https://github.com/maoist2009/AndroifFrag/releases/download/0.-1/geph-android.apk
++ [下载](https://github.yongyong.online/https://github.com/maoist2009/TlsFragment_Windows/releases/download/V1.0.0/geph-android.apk)
++ [下载](https://ghfast.top/https://github.com/maoist2009/TlsFragment_Windows/releases/download/V1.0.0/geph-android.apk)
++ [下载](https://gh-proxy.net/https://github.com/maoist2009/TlsFragment_Windows/releases/download/V1.0.0/geph-android.apk)
++ [下载](https://wget.la/https://github.com/maoist2009/TlsFragment_Windows/releases/download/V1.0.0/geph-android.apk)
++ [下载](https://github.boki.moe/https://github.com/maoist2009/TlsFragment_Windows/releases/download/V1.0.0/geph-android.apk)
++ [下载](https://gh.ddlc.top/https://github.com/maoist2009/TlsFragment_Windows/releases/download/V1.0.0/geph-android.apk)
 
 下载慢正常，等就行
 
@@ -124,11 +125,12 @@ https://cn.bing.com/search?q=web%20pro%20xy&qs=ds&form=QBRE
 
 我非常建议使用fdroid安装。fdroid安装可见[Android紧急安全教程](./Android)。记得更新，有时候连不上是因为版本太低，协议太老。
 
-+ https://gh.ddlc.top/https://github.com/ProtonVPN/android-app/releases/download/5.9.59.0/ProtonVPN-5.9.59.0.605095900.-production-vanilla-direct-release.apk
-+ https://ghproxy.1888866.xyz/https://github.com/ProtonVPN/android-app/releases/download/5.9.59.0/ProtonVPN-5.9.59.0.605095900.-production-vanilla-direct-release.apk
-+ https://github.moeyy.xyz/https://github.com/ProtonVPN/android-app/releases/download/5.9.59.0/ProtonVPN-5.9.59.0.605095900.-production-vanilla-direct-release.apk
-+ https://ghproxy.net/https://github.com/ProtonVPN/android-app/releases/download/5.9.59.0/ProtonVPN-5.9.59.0.605095900.-production-vanilla-direct-release.apk
-+ https://github.com/ProtonVPN/android-app/releases/download/5.9.59.0/ProtonVPN-5.9.59.0.605095900.-production-vanilla-direct-release.apk
+
++ [下载](https://gh.ddlc.top/https://github.com/ProtonVPN/android-app/releases/download/5.9.59.0/ProtonVPN-5.9.59.0.605095900.-production-vanilla-direct-release.apk)
++ [下载](https://ghproxy.1888866.xyz/https://github.com/ProtonVPN/android-app/releases/download/5.9.59.0/ProtonVPN-5.9.59.0.605095900.-production-vanilla-direct-release.apk)
++ [下载](https://github.moeyy.xyz/https://github.com/ProtonVPN/android-app/releases/download/5.9.59.0/ProtonVPN-5.9.59.0.605095900.-production-vanilla-direct-release.apk)
++ [下载](https://ghproxy.net/https://github.com/ProtonVPN/android-app/releases/download/5.9.59.0/ProtonVPN-5.9.59.0.605095900.-production-vanilla-direct-release.apk)
++ [下载](https://github.com/ProtonVPN/android-app/releases/download/5.9.59.0/ProtonVPN-5.9.59.0.605095900.-production-vanilla-direct-release.apk)
 
 之后
 
@@ -144,3 +146,4 @@ https://cn.bing.com/search?q=web%20pro%20xy&qs=ds&form=QBRE
 9. Not now（现在不购买plus）
 10. 然后底下操作栏settings，protocol选Stealth.
 11. 回到主界面connect即可连接
+

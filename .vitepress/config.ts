@@ -9,7 +9,7 @@ import { footnote } from "@mdit/plugin-footnote";
 import { tasklist } from "@mdit/plugin-tasklist";
 import { ins } from '@mdit/plugin-ins'
 import { mark } from '@mdit/plugin-mark'
-import { defineConfig } from 'vitepress'
+import { defineConfig,clientOnly } from 'vitepress'
 
 async function config() {
   return defineConfig(withSidebar({
@@ -65,7 +65,7 @@ async function config() {
       posts: await getPosts(),
       pageSize: 5,
       postLength: await getPostLength(),
-      nav: [
+      nav: clientOnly([
         {
           text: "🏡Blogs",
           link: "/",
@@ -82,7 +82,7 @@ async function config() {
           text: "🔥RSS",
           link: "https://mlmistrevolutionagain.codeberg.page/feed.xml",
         },
-      ],
+      ]),
 
       outline: [2,6], //设置右侧aside显示层级
       aside: false,
