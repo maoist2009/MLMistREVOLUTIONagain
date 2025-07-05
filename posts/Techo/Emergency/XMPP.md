@@ -3,10 +3,11 @@ title: XMPP注册教程
 tags:
   - 作者：maoist2009
 ---
-
 # XMPP注册教程
 
 > 有参考ll349同志前作。 ——maoist2009
+
+你可以选择之间按照此教程来使用XMPP，不过我们更建议你在能抽出最多一个小时的情况下先搭建一个**相对更安全**的革命环境，参见[本文所在目录](./)。
 
 ## 安全事项
 
@@ -160,24 +161,17 @@ Windows 用户可以按 [Win]+[R] ，输入 cmd ，在 cmd 里输入 `winget ins
 
 1. **马列毛主义文革斗争社**
    地址：[gbudn19@conference.conversations.im](xmpp:gbudn19@conference.conversations.im?join)
-   
+
    审核群：[哨塔@conference.conversations.im](xmpp:哨塔@conference.conversations.im?join)
 2. **无产阶级工程部**
    地址：[无产阶级工程部@conference.conversations.im](xmpp:无产阶级工程部@conference.conversations.im?join)
-   
+
    审核群：[哨塔@conference.conversations.im](xmpp:哨塔@conference.conversations.im?join)
 3. **马列毛主义人民武装部**
    地址：[mlmcr@conference.ubuntu-jabber.net](xmpp:mlmcr@conference.ubuntu-jabber.net?join)
-   
+
    审核群：[哨塔@conference.conversations.im](xmpp:哨塔@conference.conversations.im?join)
 4. **伐修社 - ARC 马列毛主义交流频道**
    地址：[伐修社-arc马列毛交流群@muc.nixnet.services](xmpp:伐修社-arc马列毛交流群@muc.nixnet.services?join)
-   
+
    审核群：[哨塔@conference.conversations.im](xmpp:哨塔@conference.conversations.im?join)
-
-
-
-
-
-
-
