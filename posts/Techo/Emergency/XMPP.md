@@ -110,6 +110,11 @@ gbudn19@conference.conversations.im
 
 推荐Monocles，Fdroid可以下载。
 
++ [点击链接下载XMPP客户端monocles（清华大学tuna镜像源）](https://mirrors.tuna.tsinghua.edu.cn/fdroid/repo/de.monocles.chat_18804.apk)
++ [点击链接下载XMPP客户端monocles（南京大学镜像源）](https://mirror.nju.edu.cn/fdroid/repo/de.monocles.chat_18804.apk)
++ [点击链接下载XMPP客户端monocles（上海科技大学镜像源）](https://mirrors.shanghaitech.edu.cn/fdroid/repo/de.monocles.chat_18804.apk)
++ [点击链接下载XMPP客户端monocles（官方源（被墙）](https://f-droid.org/repo/de.monocles.chat_18804.apk)
+
 安装然后你会进入它的初始界面, 你需要添加一个 xmpp 账号，点击创建账号
 
 然后它会让你选择服务商, 你可以选择 conversations.im，不过，有可能你所在的地区会很难连接到它们的服务器.
@@ -124,7 +129,8 @@ gbudn19@conference.conversations.im
 
 推荐Gajim，需要Win10及以上或者GNU/Linux。
 
-[官网下载](https://gajim.org/download/)
++ [官网Windows下载](https://gajim.org/downloads/2.3/Gajim-2.3.2-64bit.exe)
++ [官网GNU/Linux下载](https://gajim.org/download/#Linux:~:text=2.3.2%C2%A0%C2%B7%C2%A0Flatpak-,Install,-Nightly)
 
 Windows 用户可以按 [Win]+[R] ，输入 cmd ，在 cmd 里输入 `winget install gajim.gajim`，以此来下载，比较方便
 
@@ -138,7 +144,40 @@ Windows 用户可以按 [Win]+[R] ，输入 cmd ，在 cmd 里输入 `winget ins
 
 点击开始聊天，输入 群聊地址 ，双击开始新聊天
 
-在右下角设置一个昵称，再点击加入，你就可以进入群聊了。
+在右下角设置一个昵称，再点击加入，你就可以进
+入群聊了。
 
 进群后点击右上角往左数第三个按钮，可以查看群公告，请仔细阅读哟
+
+## 加入我们
+
+* 审核群：[马列毛主义继续革命社@conference.chatterboxtown.us](xmpp:马列毛主义继续革命社@conference.chatterboxtown.us`?join)
+* 公开群：[马列毛主义继续革命社@conference.conversations.im](xmpp:马列毛主义继续革命社@conference.conversations.im`?join)
+
+## 推荐群聊
+
+以下为当前值得参与的革命群组（加入需先通过哨塔审核）：
+
+1. **马列毛主义文革斗争社**
+   地址：[gbudn19@conference.conversations.im](xmpp:gbudn19@conference.conversations.im?join)
+   
+   审核群：[哨塔@conference.conversations.im](xmpp:哨塔@conference.conversations.im?join)
+2. **无产阶级工程部**
+   地址：[无产阶级工程部@conference.conversations.im](xmpp:无产阶级工程部@conference.conversations.im?join)
+   
+   审核群：[哨塔@conference.conversations.im](xmpp:哨塔@conference.conversations.im?join)
+3. **马列毛主义人民武装部**
+   地址：[mlmcr@conference.ubuntu-jabber.net](xmpp:mlmcr@conference.ubuntu-jabber.net?join)
+   
+   审核群：[哨塔@conference.conversations.im](xmpp:哨塔@conference.conversations.im?join)
+4. **伐修社 - ARC 马列毛主义交流频道**
+   地址：[伐修社-arc马列毛交流群@muc.nixnet.services](xmpp:伐修社-arc马列毛交流群@muc.nixnet.services?join)
+   
+   审核群：[哨塔@conference.conversations.im](xmpp:哨塔@conference.conversations.im?join)
+
+
+
+
+
+
 
