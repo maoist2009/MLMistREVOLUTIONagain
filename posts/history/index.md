@@ -1,5 +1,6 @@
 ---
 title: 历史
+sitemap: false
 ---
 
 # 历史

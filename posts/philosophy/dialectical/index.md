@@ -1,5 +1,6 @@
 ---
 title: 辨证唯物主义
+sitemap: false
 ---
 # 辩证唯物主义
 

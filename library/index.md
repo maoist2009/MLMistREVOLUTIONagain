@@ -1,5 +1,6 @@
 ---
 title: 图书馆
+sitemap: false
 ---
 # 图书馆
 
