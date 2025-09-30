@@ -49,7 +49,7 @@ async function config() {
       ],
     ],
     sitemap: {
-      hostname: 'https://mlmistrevolutionagain.codeberg.page',
+      hostname: 'https://mlmistrevolutionagain.pages.dev',
     },
     // cleanUrls: "with-subfolders",
     lastUpdated: true,
@@ -80,7 +80,7 @@ async function config() {
         },
         {
           text: "🔥RSS",
-          link: "https://mlmistrevolutionagain.codeberg.page/feed.xml",
+          link: "https://mlmistrevolutionagain.pages.dev/feed.xml",
         },
       ]),
 
