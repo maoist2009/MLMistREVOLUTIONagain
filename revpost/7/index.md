@@ -19,16 +19,16 @@ tags:
 >
 > ## Github发布地址：
 >
-> [Github源](https://github.com/maoist2009/MLMistREVOLUTIONagain/releases/download/V-6/6-release-v1.pdf)
+> [Github源](https://github.com/maoist2009/MLMistREVOLUTIONagain/releases/download/V-7/7-release-v1.pdf)
 >
 > 镜像：（一个一个尝试）
 >
-> + https://cors.isteed.cc/github.com/maoist2009/MLMistREVOLUTIONagain/releases/download/V-6/6-release-v1.pdf
-> + https://gh-proxy.ygxz.in/https://github.com/maoist2009/MLMistREVOLUTIONagain/releases/download/V-6/6-release-v1.pdf
-> + https://ghproxy.xiaopa.cc/https://github.com/maoist2009/MLMistREVOLUTIONagain/releases/download/V-6/6-release-v1.pdf
-> + https://github.wuzhij.com/https://github.com/maoist2009/MLMistREVOLUTIONagain/releases/download/V-6/6-release-v1.pdf
-> + https://gh.nxnow.top/https://github.com/maoist2009/MLMistREVOLUTIONagain/releases/download/V-6/6-release-v1.pdf
-> + https://ghproxy.cfd/https://github.com/maoist2009/MLMistREVOLUTIONagain/releases/download/V-6/6-release-v1.pdf
+> + https://cors.isteed.cc/github.com/maoist2009/MLMistREVOLUTIONagain/releases/download/V-7/7-release-v1.pdf
+> + https://gh-proxy.ygxz.in/https://github.com/maoist2009/MLMistREVOLUTIONagain/releases/download/V-7/7-release-v1.pdf
+> + https://ghproxy.xiaopa.cc/https://github.com/maoist2009/MLMistREVOLUTIONagain/releases/download/V-7/7-release-v1.pdf
+> + https://github.wuzhij.com/https://github.com/maoist2009/MLMistREVOLUTIONagain/releases/download/V-7/7-release-v1.pdf
+> + https://gh.nxnow.top/https://github.com/maoist2009/MLMistREVOLUTIONagain/releases/download/V-7/7-release-v1.pdf
+> + https://ghproxy.cfd/https://github.com/maoist2009/MLMistREVOLUTIONagain/releases/download/V-7/7-release-v1.pdf
 >
 > 推荐下载：
 >
