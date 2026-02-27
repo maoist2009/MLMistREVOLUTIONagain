@@ -88,6 +88,7 @@ const go = (i) => {
 };
 // timestamp transform
 const transDate = (date: string) => {
+  if (!date || typeof date !== 'string') return "未知日期";
   const dateArray = date.split("-");
   let year = dateArray[0],
     month = ``,

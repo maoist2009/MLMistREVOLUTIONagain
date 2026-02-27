@@ -1,31 +1,35 @@
-<template>
-  <h1 class="title">{{ pageData.title }}</h1>
-  <PageTag />
-  <div class="date">🕒 Published at: {{ publishDate }}</div>
-</template>
 <script lang="ts" setup>
 import { useData, onContentUpdated } from "vitepress";
-import { ref, reactive } from "vue";
+import { ref } from "vue";
 import PageTag from "./PageTag.vue"
 
 import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
-type pageData = {
-  description: string;
-  title: string;
-  frontmatter: object;
-  headers: object[];
-  lastUpdated: number;
-  relativePath: string;
-};
-const pageData: pageData = useData().page;
-const publishDate = ref("");
+import "dayjs/locale/zh-cn"; // 引入中文语言包
+
 dayjs.extend(relativeTime);
+dayjs.locale("zh-cn"); // 设置为中文
+
+const { page } = useData();
+const publishDate = ref("");
+
 onContentUpdated(() => {
-  const { frontmatter } = pageData.value;
-  publishDate.value = dayjs().to(dayjs(frontmatter.date || Date.now()));
+  const { frontmatter, lastUpdated } = page.value;
+  
+  // 优先级：Git 时间 > Frontmatter 写的日期 > 当前时间
+  const finalDate = lastUpdated || frontmatter.date || Date.now();
+  
+  // 渲染为相对时间，如 "3 天前"
+  publishDate.value = dayjs().to(dayjs(finalDate));
 });
 </script>
+
+<template>
+  <h1 class="title">{{ page.title }}</h1>
+  <PageTag />
+  <div class="date">🕒 发布于: {{ publishDate }}</div>
+</template>
+
 <style scoped>
 .title {
   color: var(--vp-c-text-1);
