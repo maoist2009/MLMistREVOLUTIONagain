@@ -1,0 +1,71 @@
+---
+title: 第十一期
+tags:
+  - 《继续革命》
+---
+
+# 第十一期
+
+> *《继续革命》第十一期* *第一版*
+>
+> 📕 *马列毛主义继续革命社*出品
+> 🛠️ *宣传·融工·建党*
+> ✊ 斗资批修，继续革命！
+>
+>> 📧 联系我们：MLM-CRS@proton.me
+>> 🪧加入我们：《继续革命》群众反修阵线 <https://conversations.im/j/马列毛主义继续革命社@conference.conversations.im>
+>> 🌐 获取完整版创刊号：《继续革命》第十一期PDF：
+>>
+>
+> ## Github发布地址：
+>
+> [Github源](https://github.com/maoist2009/MLMistREVOLUTIONagain/releases/download/V-11/11-release-v1.pdf)
+>
+> 镜像：（一个一个尝试）
+>
+> + https://cors.isteed.cc/github.com/maoist2009/MLMistREVOLUTIONagain/releases/download/V-11/11-release-v1.pdf
+> + https://gh-proxy.ygxz.in/https://github.com/maoist2009/MLMistREVOLUTIONagain/releases/download/V-11/11-release-v1.pdf
+> + https://ghproxy.xiaopa.cc/https://github.com/maoist2009/MLMistREVOLUTIONagain/releases/download/V-11/11-release-v1.pdf
+> + https://github.wuzhij.com/https://github.com/maoist2009/MLMistREVOLUTIONagain/releases/download/V-11/11-release-v1.pdf
+> + https://gh.nxnow.top/https://github.com/maoist2009/MLMistREVOLUTIONagain/releases/download/V-11/11-release-v1.pdf
+> + https://ghproxy.cfd/https://github.com/maoist2009/MLMistREVOLUTIONagain/releases/download/V-11/11-release-v1.pdf
+>
+> 推荐下载：
+>
+> ## mediafire源
+>
+> https://www.mediafire.com/folder/4gunfm80jlpf5/post
+
+---
+
+
+## 本刊后记——织工
+
+第十一刊报纸，总算在这段异常紧张的时期里完成定稿，并送到了大家手中。回顾本期报纸的制作过程，我们尤其要指出，本期工作的顺利完成，离不开组织中广大工人与学生同志付出的巨大努力。他们不仅积极参与报纸的编辑、校对和发行等工作，而且在繁重的生产劳动之余，仍然坚持投入时间和精力，为本期报纸的出版作出了重要贡献。然而，我们这一期报纸还是拖了很久，由于我们的供稿组突然涌现了新同志，对供稿工作还不如过去熟练，我们也相信经过几次的供稿工作，编辑部也会逐渐与新同志磨合，最终争取在规定时间内将刊物献给读者同志们。
+
+这一期，留神峪煤矿工友的遇难，如同一道惊雷，再次宣告了中修社会帝国主义的罪恶，更让我们明确了我们的责任深重。由于我们的融工工作已经逐渐深入的开展了下来，我们后续报刊中关于融工内容的比例也要逐渐多起来。我们一定要通过融工和阶级斗争，让中修为自己对工人阶级造成的伤害付出代价。
+
+
+**我们要向每一位参与本期工作的同志致以最诚挚的谢意。其名单如下**
+
++ 作者名单已置于各篇文章标题之下。
++ 参与编辑工作的同志有：
++ + 织工
++ + 罗雪霞
++ + 稻
++ + 萧明
++ + 红线笔锋
++ 参与美工工作的同志有：
++ + 织工（感谢其承担了封面的绘制）
++ 参与排版工作的同志有：
++ + 7762e0c3
+
+对于由于客观原因未使用实名的同志，我们依然沿用了此前约定的做法，即使用其提供的特定字符串，或者是在编辑部内部昵称经过SHA-1算法处理后的前8位哈希值作为代替。这是为了在确保安全的前提下，如实记录下每一位同志的劳动成果。
+
+**再次向大家表示衷心的感谢！**
+
+读者同志们，现实的困难依然存在，且不容忽视。人力的相对紧张是我们必须面对的客观现实。为了保证刊物的质量，避免为了赶进度而导致逻辑不严密或论证不充分，同时也为了留出足够的时间去深化组织建设和理论研究，我们决定对第十二期的发布节奏进行更灵活的调整。
+
+希望读者同志们能够谅解这种必要的调整。在接下来的这段时间里，我们依然热切地期待着您的来信。无论是关于文章观点的讨论，还是对我们工作的批评建议，都是我们不断改进工作、积蓄力量的基础。
+
+万望读者同志们原谅，若有相关意见，等待着您前来交流。
