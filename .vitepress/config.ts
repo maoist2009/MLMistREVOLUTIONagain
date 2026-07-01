@@ -37,7 +37,7 @@ async function config() {
         "meta",
         {
           property: "og:title",
-          content: "Home",
+          content: "继续革命社&文革斗争社",
         },
       ],
       [
@@ -45,6 +45,27 @@ async function config() {
         {
           property: "og:description",
           content: "继续革命社&文革斗争社官方网站",
+        },
+      ],
+      [
+        "meta",
+        {
+          property: "og:type",
+          content: "website",
+        },
+      ],
+      [
+        "meta",
+        {
+          property: "og:url",
+          content: "https://mlmistrevolutionagain.pages.dev/",
+        },
+      ],
+      [
+        "meta",
+        {
+          property: "og:image",
+          content: "https://mlmistrevolutionagain.pages.dev/avator.svg",
         },
       ],
     ],
@@ -122,14 +143,14 @@ async function config() {
       plugins: [
         // // add plugin
         // AutoSidebar({
-        //   path: '/',
-        //   collapsed: true,
-        //   titleFromFile: true,
-        //   ignoreList: [
-        //     'node_modules',
-        //     '.vitepress',
-        //     'public ',
-        //   ],
+        //    path: '/',
+        //    collapsed: true,
+        //    titleFromFile: true,
+        //    ignoreList: [
+        //      'node_modules',
+        //      '.vitepress',
+        //      'public ',
+        //    ],
         // })
       ]
     },
@@ -152,4 +173,3 @@ async function config() {
   }));
 }
 export default config();
-
