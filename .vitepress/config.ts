@@ -33,21 +33,26 @@ async function config() {
           content: "MLMists",
         },
       ],
-      [
-        "meta",
-        {
-          property: "og:title",
-          content: "Home",
-        },
-      ],
-      [
-        "meta",
-        {
-          property: "og:description",
-          content: "继续革命社&文革斗争社官方网站",
-        },
-      ],
     ],
+    async transformHead({ pageData }) {
+      const title = pageData.frontmatter.title || pageData.title || "继续革命社&文革斗争社";
+      const description = pageData.frontmatter.description || "继续革命社&文革斗争社网站";
+      const cleanPath = pageData.relativePath.replace(/\.md$/, '.html');
+      const url = `https://mlmistrevolutionagain.pages.dev/${cleanPath}`;
+
+      // 切换回正式公网域名坐标
+      const imageUrl = pageData.frontmatter.image
+        ? `https://mlmistrevolutionagain.pages.dev${pageData.frontmatter.image}`
+        : "https://mlmistrevolutionagain.pages.dev/avator.svg";
+
+      return [
+        ["meta", { property: "og:title", content: title }],
+        ["meta", { property: "og:description", content: description }],
+        ["meta", { property: "og:type", content: "website" }],
+        ["meta", { property: "og:url", content: url }],
+        ["meta", { property: "og:image", content: imageUrl }],
+      ];
+    },
     sitemap: {
       hostname: 'https://mlmistrevolutionagain.pages.dev',
     },
@@ -84,9 +89,8 @@ async function config() {
         },
       ]),
 
-      outline: [2,6], //设置右侧aside显示层级
+      outline: [2,6], 
       aside: false,
-      // blogs page show firewokrs animation
       showFireworksAnimation: false,
       sidebarMenuLabel: "网站目录",
       outlineTitle: "文内目录"
@@ -99,7 +103,6 @@ async function config() {
       },
       codeTransformers: [transformerTwoslash()],
       config: (md) => {
-        // 使用更多的 Markdown-it 插件！
         md.use(multimd_table_plugin, {
           multiline: true,
           rowspan: true,
@@ -120,17 +123,6 @@ async function config() {
     },
     vite: {
       plugins: [
-        // // add plugin
-        // AutoSidebar({
-        //   path: '/',
-        //   collapsed: true,
-        //   titleFromFile: true,
-        //   ignoreList: [
-        //     'node_modules',
-        //     '.vitepress',
-        //     'public ',
-        //   ],
-        // })
       ]
     },
   }, {
@@ -147,9 +139,7 @@ async function config() {
       "archives.md",
       "GroupInfo.md",
       "tags.md",
-      
     ]
   }));
 }
 export default config();
-
