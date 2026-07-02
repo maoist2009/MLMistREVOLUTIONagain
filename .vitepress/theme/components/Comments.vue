@@ -2,10 +2,14 @@
 import { Md5 } from 'ts-md5';
 import { onContentUpdated, useRouter } from "vitepress";
 import Giscus from '@giscus/vue';
-import { ref } from 'vue';
+import { ref, onMounted } from 'vue';
 
-let pathname = ref(location.pathname);
-let MD5pathname = ref(Md5.hashStr(pathname));
+let pathname = ref("");
+let MD5pathname = ref("");
+onMounted(() => {
+  pathname.value = location.pathname;
+  MD5pathname.value = Md5.hashStr(pathname.value);
+});
 onContentUpdated(() => {
   pathname.value = location.pathname;
   MD5pathname.value = Md5.hashStr(pathname.value);

@@ -9,7 +9,7 @@
     </div>
 </template>
 <script>
-import { ref } from 'vue';
+import { ref, onMounted } from 'vue';
 export default {
     setup(props) {
         const imageUrl = ref(props.imageUrl);
@@ -18,7 +18,9 @@ export default {
         const LinkUrl = ref(props.LinkUrl);
         const ButtonText = ref(props.ButtonText);
         function handleClick() {
-            location.assign(LinkUrl.value);
+            if (typeof location !== 'undefined') {
+                location.assign(LinkUrl.value);
+            }
         }
         return {
             imageUrl,

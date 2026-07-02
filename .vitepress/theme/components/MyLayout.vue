@@ -33,16 +33,21 @@ import Page from "./Page.vue";
 import Category from "./Category.vue";
 import Title from "./Title.vue";
 import Motto from "./Motto.vue";
+import { onMounted, ref } from "vue";
 const { Layout } = DefaultTheme;
-const cdf = () => {
-  if (location.href.endsWith("/"))
-    location.assign("../");
-  else
-    location.assign("./");
-};
-const back = () => {
-  history.back();
-};
+const cdf = ref<() => void>(() => {});
+const back = ref<() => void>(() => {});
+onMounted(() => {
+  cdf.value = () => {
+    if (location.href.endsWith("/"))
+      location.assign("../");
+    else
+      location.assign("./");
+  };
+  back.value = () => {
+    history.back();
+  };
+});
 </script>
 <style scoped>
 button {
