@@ -124,7 +124,7 @@ async function config() {
       ]);
 
       // og:image - use frontmatter image or fallback to favicon
-      const image = pageData.frontmatter?.image || "/avator.svg";
+      const image = pageData.frontmatter?.image || "https://mlmistrevolutionagain.pages.dev/avator.svg";
       head.push([
         "meta",
         {
