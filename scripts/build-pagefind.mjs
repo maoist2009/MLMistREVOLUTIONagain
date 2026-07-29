@@ -21,4 +21,17 @@ const result = spawnSync('pnpm', ['vitepress', 'build'], {
   shell: true,
 })
 
+// 构建成功后自动应用 pagefind exact-search 补丁
+if (result.status === 0) {
+  const patchResult = spawnSync('node', ['scripts/patch-pagefind.mjs'], {
+    stdio: 'inherit',
+    cwd: root,
+    shell: true,
+  })
+  if (patchResult.status !== 0) {
+    console.error('Pagefind patch failed!')
+    process.exit(patchResult.status ?? 1)
+  }
+}
+
 process.exit(result.status ?? 0)

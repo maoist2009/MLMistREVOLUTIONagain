@@ -12,6 +12,21 @@ import { mark } from '@mdit/plugin-mark'
 import { defineConfig,clientOnly } from 'vitepress'
 import fs from 'fs'
 import { pagefindPlugin, chineseSearchOptimize } from 'vitepress-plugin-pagefind'
+import { platform, arch } from 'node:os'
+import { join } from 'node:path'
+import { existsSync } from 'node:fs'
+import { VitePWA } from 'vite-plugin-pwa'
+import { resolve } from 'node:path'
+
+// Use pagefind_extended binary on Termux (android-arm64)
+const isTermux = platform() === 'android' && arch() === 'arm64'
+const pagefindBinary = isTermux
+  ? join(process.cwd(), 'node_modules', '@pagefind', 'linux-arm64', 'bin', 'pagefind_extended')
+  : 'npx pagefind'
+
+const indexingCommand = existsSync(pagefindBinary)
+  ? `${pagefindBinary} --site "${process.cwd()}/.vitepress/dist" --exclude-selectors "div.aside, a.header-anchor" --force-language zh-cn`
+  : undefined
 
 function extractFirstParagraph(content: string): string {
   const lines = content.split('\n');
@@ -125,7 +140,7 @@ async function config() {
       ]);
 
       // og:image - use frontmatter image or fallback to favicon
-      const image = pageData.frontmatter?.image || "https://mlmistrevolutionagain.pages.dev/avator.svg";
+      const image = pageData.frontmatter?.image || "https://mlmcrs.pages.dev/avator.svg";
       head.push([
         "meta",
         {
@@ -140,7 +155,7 @@ async function config() {
         "meta",
         {
           property: "og:url",
-          content: `https://mlmistrevolutionagain.pages.dev${pagePath ? '/' + pagePath.replace(/\.md$/, '.html') : ''}`,
+          content: `https://mlmcrs.pages.dev${pagePath ? '/' + pagePath.replace(/\.md$/, '.html') : ''}`,
         },
       ]);
 
@@ -165,7 +180,7 @@ async function config() {
       return head;
     },
     sitemap: {
-      hostname: 'https://mlmistrevolutionagain.pages.dev',
+      hostname: 'https://mlmcrs.pages.dev',
     },
     // cleanUrls: "with-subfolders",
     lastUpdated: true,
@@ -194,7 +209,7 @@ async function config() {
         },
         {
           text: "🔥RSS",
-          link: "https://mlmistrevolutionagain.pages.dev/feed.xml",
+          link: "https://mlmcrs.pages.dev/feed.xml",
         },
       ]),
 
@@ -235,6 +250,7 @@ async function config() {
     vite: {
       plugins: [
         pagefindPlugin({
+          indexingCommand,
           customSearchQuery: chineseSearchOptimize,
           forceLanguage: 'zh-cn',
           btnPlaceholder: '搜索',
@@ -242,17 +258,60 @@ async function config() {
           emptyText: '无结果',
           loadingText: '搜索中...',
         }),
-        // // add plugin
-        // AutoSidebar({
-        //   path: '/',
-        //   collapsed: true,
-        //   titleFromFile: true,
-        //   ignoreList: [
-        //     'node_modules',
-        //     '.vitepress',
-        //     'public ',
-        //   ],
-        // })
+        VitePWA({
+          mode: 'generateSW',
+          registerType: 'autoUpdate',
+          includeAssets: ['avator.svg', 'robots.txt'],
+          manifest: {
+            name: '继续革命社&文革斗争社',
+            short_name: '继续革命社',
+            description: '继续革命社&文革斗争社官方网站',
+            theme_color: '#3eaf7c',
+            background_color: '#ffffff',
+            display: 'standalone',
+            scope: '/',
+            start_url: '/',
+            icons: [
+              {
+                src: '/avator.svg',
+                sizes: 'any',
+                type: 'image/svg+xml',
+                purpose: 'any maskable'
+              }
+            ]
+          },
+          workbox: {
+            globPatterns: ['**/*.{js,css,html,svg,png,woff2}'],
+            cleanupOutdatedCaches: true,
+            maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
+            runtimeCaching: [
+              {
+                urlPattern: /^https:\/\/mlmcrs\.pages\.dev\/pagefind\/.*/i,
+                handler: 'StaleWhileRevalidate',
+                options: {
+                  cacheName: 'pagefind-index',
+                  expiration: { maxEntries: 50, maxAgeSeconds: 60 * 60 * 24 * 30 }
+                }
+              },
+              {
+                urlPattern: /^https:\/\/mlmcrs\.pages\.dev\/.*/i,
+                handler: 'StaleWhileRevalidate',
+                options: {
+                  cacheName: 'api-cache',
+                  expiration: { maxEntries: 100, maxAgeSeconds: 60 * 60 * 24 * 7 }
+                }
+              },
+              {
+                urlPattern: ({ request }) => request.mode === 'navigate',
+                handler: 'StaleWhileRevalidate',
+                options: {
+                  cacheName: 'pages',
+                  expiration: { maxEntries: 50, maxAgeSeconds: 60 * 60 * 24 * 7 }
+                }
+              }
+            ]
+          }
+        })
       ]
     },
   }, {

@@ -6,7 +6,7 @@ import MarkdownIt from "markdown-it";
 import type { FeedOptions, Item } from "feed";
 import { Feed } from "feed";
 
-const DOMAIN = "https://mlmistrevolutionagain.codeberg.page";
+const DOMAIN = "https://mlmcrs.pages.dev";
 const AUTHOR = {
   name: "MLMists",
   email: "maoist2013@proton.me",
