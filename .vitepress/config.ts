@@ -11,6 +11,7 @@ import { ins } from '@mdit/plugin-ins'
 import { mark } from '@mdit/plugin-mark'
 import { defineConfig,clientOnly } from 'vitepress'
 import fs from 'fs'
+import { pagefindPlugin, chineseSearchOptimize } from 'vitepress-plugin-pagefind'
 
 function extractFirstParagraph(content: string): string {
   const lines = content.split('\n');
@@ -172,9 +173,7 @@ async function config() {
       // repo: "clark-cui/homeSite",
       logo: "/avator.svg",
       avator: "/avator.svg",
-      search: {
-        provider: "local",
-      },
+      // search handled by pagefind plugin
       docsDir: "/",
       // docsBranch: "master",
       posts: await getPosts(),
@@ -235,6 +234,14 @@ async function config() {
     },
     vite: {
       plugins: [
+        pagefindPlugin({
+          customSearchQuery: chineseSearchOptimize,
+          forceLanguage: 'zh-cn',
+          btnPlaceholder: '搜索',
+          placeholder: '搜索文档',
+          emptyText: '无结果',
+          loadingText: '搜索中...',
+        }),
         // // add plugin
         // AutoSidebar({
         //   path: '/',
