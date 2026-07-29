@@ -4,26 +4,16 @@ import { join } from 'node:path'
 import { existsSync } from 'node:fs'
 
 const root = process.cwd()
-const pagefindBin = join(root, 'node_modules', '@pagefind', getPlatformDir(), 'bin', 'pagefind_extended')
 
-function getPlatformDir() {
-  const p = platform()
-  const a = arch()
-  if ((p === 'linux' || p === 'android') && a === 'arm64') return 'linux-arm64'
-  if (p === 'linux' && a === 'x64') return 'linux-x64'
-  if (p === 'darwin' && a === 'arm64') return 'darwin-arm64'
-  if (p === 'darwin' && a === 'x64') return 'darwin-x64'
-  if (p === 'win32' && a === 'x64') return 'win32-x64'
-  return 'linux-x64' // fallback
+// 只处理 Termux (android + arm64)，其他平台全靠 pagefind 自己 npx
+const isTermux = platform() === 'android' && arch() === 'arm64'
+
+if (isTermux) {
+  const bin = join(root, 'node_modules', '@pagefind', 'linux-arm64', 'bin', 'pagefind_extended')
+  if (existsSync(bin)) {
+    process.env.PAGEFIND_BINARY_PATH = bin
+  }
 }
-
-if (!existsSync(pagefindBin)) {
-  console.error(`Pagefind binary not found: ${pagefindBin}`)
-  console.error('Run: pnpm add -D @pagefind/<platform>')
-  process.exit(1)
-}
-
-process.env.PAGEFIND_BINARY_PATH = pagefindBin
 
 const result = spawnSync('pnpm', ['vitepress', 'build'], {
   stdio: 'inherit',
