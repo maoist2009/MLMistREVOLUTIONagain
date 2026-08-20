@@ -177,6 +177,13 @@ async function config() {
         },
       ]);
 
+      // Service Worker registration
+      head.push([
+        "script",
+        {},
+        `if ('serviceWorker' in navigator) { navigator.serviceWorker.register('/sw.js', { scope: '/' }); }`,
+      ]);
+
       return head;
     },
     sitemap: {

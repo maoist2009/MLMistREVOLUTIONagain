@@ -5,6 +5,7 @@ import MyLayout from "./components/MyLayout.vue";
 import TwoslashFloatingVue from "@shikijs/vitepress-twoslash/client";
 import "@shikijs/vitepress-twoslash/style.css";
 import type { EnhanceAppContext } from "vitepress";
+import { registerSW } from "virtual:pwa-register";
 
 import "./custom.css";
 
@@ -15,5 +16,12 @@ export default {
     app.component("Archives", Archives);
     app.component("Tags", Tags);
     app.use(TwoslashFloatingVue);
+    if (typeof window !== "undefined") {
+      registerSW({
+        immediate: true,
+        onNeedRefresh() {},
+        onOfflineReady() {},
+      });
+    }
   },
 };
